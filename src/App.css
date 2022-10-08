@@ -1,23 +1,7 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap');
 
 body {
     font-family: 'Roboto', sans-serif;
-}
-
-.btn-cadastrar {
-    color: #fff;
-    background-color: #825392;
-}
-
-.layout {
-    display: flex;
-    flex-direction: column;
-    width: 400px;
-}
-
-input {
-    margin-bottom: 13px;
 }
 
 .container {
