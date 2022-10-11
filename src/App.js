@@ -222,12 +222,12 @@ function App() {
             {
               livros.map((livro) => {
                 return (
-                  <tr class="flex flex-col flex-no wrap sm:table-row mb-2 sm:mb-0  ">
-                    <td class="border-grey-light border hover:bg-gray-100 p-3">{livro.codigo}</td>
-                    <td class="border-grey-light border hover:bg-gray-100 p-3">{livro.titulo}</td>
-                    <td class="border-grey-light border hover:bg-gray-100 p-3">{livro.autor}</td>
-                    <td class="border-grey-light border hover:bg-gray-100 p-3">{livro.data}</td>
-                    <td class="border-grey-light border hover:bg-gray-100 p-3  "><button onClick={() => excluir(livro.codigo)}><FaTrashAlt /></button></td>
+                  <tr class="hover:bg-gray-100 flex flex-col flex-no wrap sm:table-row mb-2 sm:mb-0  ">
+                    <td class="p-3">{livro.codigo}</td>
+                    <td class="p-3">{livro.titulo}</td>
+                    <td class="p-3">{livro.autor}</td>
+                    <td class="p-3">{livro.data}</td>
+                    <td class="p-3  "><button onClick={() => excluir(livro.codigo)}><FaTrashAlt /></button></td>
                   </tr>
 
                 )
@@ -294,11 +294,11 @@ function App() {
             <tbody class=" flex-1 sm:flex-none  ">
 
 
-              <tr class="flex flex-col flex-no wrap sm:table-row mb-2 sm:mb-0  ">
-                <td class="border-grey-light border hover:bg-gray-100 p-3">{pesquisaCodigo}</td>
-                <td class="border-grey-light border hover:bg-gray-100 p-3">{tituloPesquisa}</td>
-                <td class="border-grey-light border hover:bg-gray-100 p-3">{autorPesquisa}</td>
-                <td class="border-grey-light border hover:bg-gray-100 p-3">{dataPesquisa}</td>
+              <tr class="hover:bg-gray-100 flex flex-col flex-no wrap sm:table-row mb-2 sm:mb-0  ">
+                <td class="p-3">{pesquisaCodigo}</td>
+                <td class="p-3">{tituloPesquisa}</td>
+                <td class="p-3">{autorPesquisa}</td>
+                <td class="p-3">{dataPesquisa}</td>
 
               </tr>
 
