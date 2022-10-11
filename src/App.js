@@ -245,8 +245,9 @@ function App() {
           </tbody>
         </table>
 
-        <div class=" "> {/*PESQUISA*/}
-          <div className='pesquisa' class="  flex flex-wrap sm:shadow-lg px-3 rounded-3xl mt-5 ">
+        <div className="containerPesquisa "> {/*PESQUISA*/}
+          
+          <div className='Inputpesquisa' class="  flex flex-wrap sm:shadow-lg px-3 rounded-3xl mt-5 ">
             <div class="w-full  sm:w-1/4 mt-5 ">
               <div class="mb-3">
                 <label
@@ -304,6 +305,7 @@ function App() {
 
             </tbody>
           </table>
+          
         </div>
 
 
