@@ -2,12 +2,13 @@
 
 body {
     font-family: 'Roboto', sans-serif;
+    
 }
 
 .container {
     align-items: center;
     width: 61rem;
-    
+
 }
 
 .containerMain {
@@ -16,17 +17,19 @@ body {
     align-items: center;
     justify-content: center;
     
+
 }
 
 .tituloCadastro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
     font-weight: 900;
     font-size: 25px;
     opacity: 0.8;
-    text-align: center;
-    
-    border-radius: 12px; 
-    
     margin-top: 5px;
+    
 }
 
 
@@ -48,3 +51,4 @@ td:not(:last-child) {
 th:not(:last-child) {
     border-bottom: 2px solid rgba(0, 0, 0, .1);
 }
+
