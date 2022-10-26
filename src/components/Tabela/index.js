@@ -22,21 +22,6 @@ export default function Tabela(props) {
         });
     }
 
-    // const [livroMomento, setLivroMomento] = useState({
-    //     codigo: '',
-    //     titulo: '',
-    //     autor: '',
-    //     data: '',
-    // })
-
-
-    // function enviarModal (livroMomento1,isthis) { // os dados da posição correta para fazer a edição no MODAL
-    //     livroMomento.codigo = livroMomento1.codigo
-    //     livroMomento.titulo = livroMomento1.titulo
-    //     livroMomento.autor = livroMomento1.autor
-    //     livroMomento.data = livroMomento1.data
-    //     props.setShowModal(isthis)
-    // }
 
     const [codigo, setCodigo] = useState('')
     const [titulo, setTitulo] = useState('')
