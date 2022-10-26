@@ -14,7 +14,7 @@ export default function Modal(props) {
 
     useEffect(() => {
         if (props.showModal) {
-            setTituloEdit(props.titulo)
+            setTituloEdit(props.titulo) //setando os inputs do modal com informação atual do livro
             setAutorEdit(props.autor)
             setDataEdit(props.data)
         }
