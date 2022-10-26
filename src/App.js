@@ -1,13 +1,3 @@
-/*   
-⦁ Crie um programa de cadastro de livros de uma loja (utilizando React). O programa deve implementar as funcionalidades descritas no texto abaixo:   
-(1) - Cadastrar livro;   
-(2) - Pesquisar livro;   
-O cadastro do  deve solicitar código do livro, titulo, autor, data. O programa deve respeitar as seguintes restrições:   
-⦁ A pesquisa deve ser feita pelo código ou autor;    
-⦁ A exclusão deve ser feita pela tabela de livros;   
-(desafio) A tabela de livros deve apresentar quantos livros com o mesmo titulo existem na loja   
-*/
-
 import { useState, useEffect } from 'react';
 import './App.css';
 import Axios from 'axios';
@@ -37,7 +27,7 @@ function App() {
   const [listLivros, setListLivros] = useState([]);
   const [showModal, setShowModal] = useState(false);
 
-  useEffect(() => {
+  useEffect(() => { // puxando dados do banco e setando na variável listLivros
     Axios.get("https://cadastro-livross.herokuapp.com/getLivros").then((response) => { setListLivros(response.data); });
   }, [/*listLivros //atualiza sempre, faz get toda hora*/]);
 
@@ -181,24 +171,7 @@ function App() {
                 <div class="shadow-lg px-3 rounded-3xl p-7"> {/*INPUTS CADASTRO */}
                   <div class="mx-auto w-full mt-8 ">
                     <div class="-mx-3 flex flex-wrap">
-                    {/*<div class="w-full px-3 sm:w-1/5">
-                        <div class="mb-5">
-                          <label
-                            htmlFor="code"
-                            class="mb-3 block text-base font-medium text-[#07074D]"
-                          >
-                            Código
-                          </label>
-                          <input
-                            onChange={((e) => { setCodigo(e.target.value) })} value={codigo}
-                            type="text"
-                            name="code"
-                            id="code"
-                            placeholder="Código"
-                            class="w-full rounded-md border border-[#e0e0e0] bg-white py-3 px-6 text-base font-medium text-[#6B7280] outline-none focus:border-[#6A64F1] focus:shadow-md"
-                          />
-                        </div>
-            </div>*/}
+                      
                       <div class="w-full px-3 sm:w-1/5">
                         <div class="mb-5">
                           <label
