@@ -8,16 +8,14 @@
 </p>
 
 <h1 align="center">Como criar esse projeto do zero</h1>
- <div align="center">
-  <div align="left">
+  
+  <div align="center">
 
   💻 **Acesse o server [aqui](https://github.com/thiagorussi/Cadatro-de-livros-REACT-MYSQL-HEROKU/blob/main/server-heroku/index.js)** | <br>
   💻 **Acesse o front [aqui](https://github.com/thiagorussi/Cadatro-de-livros-REACT-MYSQL-HEROKU/tree/main/src)** |
 
-
-
   </div>
- </div>
+ 
 
 
 ## 📑 Índice
