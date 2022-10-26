@@ -7,8 +7,8 @@ const PORT = process.env.PORT || 3000; // o Heroku usa a $PORT variável de ambi
 
 const db = mysql.createPool({ //BANCO-HEROKU
     host: "us-cdbr-east-06.cleardb.net",
-    user: "be9fef9a950c80",
-    password: "33650f06",
+    user: "xxxxxxxx",
+    password: "xxxxxxxx",
     database: "heroku_a5646a86631eda2",
 });
 
