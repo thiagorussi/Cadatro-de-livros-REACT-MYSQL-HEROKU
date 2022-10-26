@@ -3,14 +3,16 @@
   <br><br>
 
 <p align="center">
-  <img src="https://github.com/thiagorussi/Cadastro-livros-REACT/blob/main/cadastroveiculosgif.gif?raw=true"/>
+  <img src="https://github.com/thiagorussi/Cadatro-de-livros-REACT-MYSQL-HEROKU/blob/main/cadastroveiculosgif.gif"/>
   <br><br>
 </p>
 
 <h1 align="center">Como criar esse projeto do zero</h1> 
 <div align="center">
 
-💻 **Acesse o código [aqui](https://github.com/thiagorussi/Cadastro-livros-REACT/blob/main/src/App.js)** | 
+💻 **Acesse o server [aqui](https://github.com/thiagorussi/Cadatro-de-livros-REACT-MYSQL-HEROKU/blob/main/server-heroku/index.js)** | <br>
+💻 **Acesse o front [aqui](https://github.com/thiagorussi/Cadatro-de-livros-REACT-MYSQL-HEROKU/tree/main/src)** |
+  
  
 
 </div>
@@ -25,7 +27,8 @@
 
 ## 💡 Sobre o Projeto
 
-Esse projeto foi feito para treinar habilidades com as tecnologias envolvidas, tendo como projeto um cadastro de livros usando um array para armazenar os dados e mostrar na tela. Idéias para evoluir seria implementar uma conexão com banco de dados.
+Esse projeto foi feito para treinar habilidades com as tecnologias envolvidas, tendo como projeto um cadastro de livros.<br> 
+Esse projeto conta com todo back-end na nuvem (HEROKU), ou seja, `banco de dados e toda Api`. Já o front ficou hospedado na Netlify.
 
 ## 🚀 Tecnologias utilizadas
 
@@ -35,11 +38,16 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias:
 - JavaScript
 - HTML5 e CSS3
 - Tailwind CSS
+- Express
+- NodeJs
+- MySQL
+- Heroku
+- Netlify
 
 
 ## 📥 Executar esse projeto no seu computador
 
-- Clonar Repositório: `git clone https://github.com/thiagorussi/Cadastro-livros-REACT.git`
+- Clonar Repositório: `git clone https://github.com/thiagorussi/Cadatro-de-livros-REACT-MYSQL-HEROKU`
 
 - Instalar dependências: `npm install`
 - Rodar Aplicação: `npm start`
