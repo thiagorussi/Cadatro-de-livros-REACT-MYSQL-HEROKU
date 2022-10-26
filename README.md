@@ -11,7 +11,7 @@
 <div align="center">
 
 💻 **Acesse o server [aqui](https://github.com/thiagorussi/Cadatro-de-livros-REACT-MYSQL-HEROKU/blob/main/server-heroku/index.js)** | <br>
-💻 **Acesse o front [aqui](https://github.com/thiagorussi/Cadatro-de-livros-REACT-MYSQL-HEROKU/tree/main/src)** |
+💻 **Acesse o front [aqui](https://github.com/thiagorussi/Cadatro-de-livros-REACT-MYSQL-HEROKU/tree/main/src)**  |
   
  
 
