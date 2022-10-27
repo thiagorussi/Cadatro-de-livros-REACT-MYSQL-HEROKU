@@ -3,7 +3,7 @@
   <br><br>
 
 <p align="center">
-  <img src="https://github.com/thiagorussi/Cadatro-de-livros-REACT-MYSQL-HEROKU/blob/main/cadastroveiculosgif.gif"/>
+  <img src="https://raw.githubusercontent.com/thiagorussi/Cadastro-livros-REACT/main/20221014_113153.gif"/>
   <br><br>
 </p>
 
