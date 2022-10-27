@@ -17,7 +17,7 @@
   </div>
   
   ## 👨🏻‍🔧 Você pode testar o projeto aqui:
-- https://cadastrodelivros1.netlify.app/
+- https://cadastrodelivros-reactjs-mysql.netlify.app/
  
 
 ## 📑 Índice
