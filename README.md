@@ -15,8 +15,10 @@
   💻 **Acesse o front [aqui](https://github.com/thiagorussi/Cadatro-de-livros-REACT-MYSQL-HEROKU/tree/main/src)** |
 
   </div>
+  
+  ## 👨🏻‍🔧 Você pode testar o projeto aqui:
+- https://cadastrodelivros1.netlify.app/
  
-
 
 ## 📑 Índice
 
